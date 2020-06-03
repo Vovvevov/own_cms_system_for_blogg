@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.user-blog-headline-div {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(193, 240, 196), rgb(204, 204, 252), rgb(193, 240, 196));
+}
+
+.user-blog-headline-h1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+.user-blog-posts-div {
+    display: flex;
+    flex-direction: column; //Column-reverse för att få de senaste inläggen överst.
+    align-items: center;
+    background-image: linear-gradient(rgb(204, 204, 252), rgb(240, 208, 193), rgb(204, 204, 252));
+}
+
+.user-single-blog-post-div {
+    //background-image: linear-gradient(rgb(212, 212, 212), rgb(185, 185, 185));
+    width: 40vw;
+    border-bottom: black 2px solid;
+    height: fit-content;
+}
+
+.user-blog-post-h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 60px;
+}
+
+.user-blog-text-p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.user-time-stamp {
+    font-size: 15px;
+    font-family: fantasy;
+    margin: 60px;
+}

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.admin-blog-headline-div {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(180, 180, 180), rgb(102, 102, 102));
+}
+
+.admin-blog-headline-h1 {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    background-image: linear-gradient(rgb(196, 196, 196), rgb(133, 133, 133), rgb(196, 196, 196));
+}
+
+.admin-blog-post-headline-input-div {
+    display: flex;
+    justify-content: center;
+}
+
+.admin-blog-post-headline-input {
+    width: 500px;
+    height: 30px;
+    margin: 20px;
+}
+
+.admin-blog-post-text-area-div {
+    display: flex;
+    justify-content: center;
+}
+
+.admin-blog-post-text-area {
+    width: 40vw;
+    height: 410px;
+    margin: 20px;
+}
+
+.admin-submit-btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.admin-submit-btn {
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+}
